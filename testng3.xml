@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Dept">
+
+<listeners>
+
+<listener class-name="test.ListenersDemo"></listener>
+</listeners>
+
+<parameter name="URL" value="https://www.facebook.com"></parameter>
+<parameter name="URL1" value="https://www.facebook123.com"></parameter>
+	<test name="Smoke">
+		<!-- <groups>
+			<run>
+				<include name="Smoke"></include>
+			</run>
+		</groups> -->
+		
+		<classes>
+			<class name="test.Day1" />
+			<class name="test.Day2" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

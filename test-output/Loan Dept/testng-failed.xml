@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan Dept]">
+  <parameter name="URL1" value="https://www.facebook123.com"/>
+  <parameter name="URL" value="https://www.facebook.com"/>
+  <listeners>
+    <listener class-name="test.ListenersDemo"/>
+  </listeners>
+  <test name="Smoke(failed)">
+    <classes>
+      <class name="test.Day2">
+        <methods>
+          <include name="test1234"/>
+        </methods>
+      </class> <!-- test.Day2 -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Loan Dept] -->
