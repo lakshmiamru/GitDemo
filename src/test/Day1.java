@@ -42,6 +42,8 @@ public class Day1 {
 		System.out.println("day12 method4");
 		System.out.println("day12 method4");
 //		System.out.println(un +":"+ pwd);
+		System.out.println("day12 method4");
+		System.out.println("day12 method4");
 	}
 	
 	
