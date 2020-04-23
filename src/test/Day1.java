@@ -37,6 +37,12 @@ public class Day1 {
 //		System.out.println(un +":"+ pwd);
 	}
 	
+	@Test()
+	public void test12321(){
+		System.out.println("day12 method4");
+//		System.out.println(un +":"+ pwd);
+	}
+	
 	
 	
 	@DataProvider
