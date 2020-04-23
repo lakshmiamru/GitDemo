@@ -11,6 +11,21 @@ public class Day2 {
 	}
 	
 	@Test
+	public void test11234(){
+		System.out.println("day2 m2");
+		Assert.assertTrue(false);
+	}
+	@Test
+	public void test12234(){
+		System.out.println("day2 m2");
+		Assert.assertTrue(false);
+	}
+	@Test
+	public void test12634(){
+		System.out.println("day2 m2");
+		Assert.assertTrue(false);
+	}
+	@Test
 	public void test1234(){
 		System.out.println("day2 m2");
 		Assert.assertTrue(false);

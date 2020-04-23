@@ -26,6 +26,16 @@ public class Day1 {
 	}
 	
 	@Test()
+	public void test123u() throws IOException{
+		System.out.println("day1 method1");
+		Properties prop = new Properties();
+		FileInputStream fis = new FileInputStream("C:\\Users\\Admin\\workspace\\SeleniumByDevName\\src\\test\\config.properties");
+		prop.load(fis);
+		System.out.println(prop.getProperty("username"));
+		
+	}
+	
+	@Test()
 	public void test1234(){
 		System.out.println("day1 method2");
 //		System.out.println(un +":"+ pwd);
