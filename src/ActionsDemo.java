@@ -18,6 +18,7 @@ public class ActionsDemo {
 		
 		Actions action = new Actions(driver);
 		action.moveToElement(driver.findElement(By.id("nav-link-accountList"))).contextClick().build().perform();
+		//new line added
 		
 //		action.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("sridhar").doubleClick().build().perform();
 		
